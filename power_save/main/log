@@ -1,0 +1,35 @@
+BASE 012780487 0 //WH +++
+PTEC TH.. $ //period tarifaire constant?
+IINST 008 _ //Courant A +++
+IMAX 090 H //Imax 90 constant
+PAPP 01871 2 //Puissance apparente VA +++
+HHPHC A , //Horaire Heures Pleines Heures Creuses A 
+MOTDETAT 000000 B //Mot d'état du compteur 
+ADCO 341964324585 M //Adresse du compteur
+OPTARIF BASE 0 //Option tarifaire choisie 
+ISOUSC 60 < //abonement A
+BASE 012780488 1
+PTEC TH.. $
+IINST 008 _
+IMAX 090 H
+PAPP 01871 2
+HHPHC A ,
+MOTDETAT 000000 B
+ADCO 341964324585 M
+OPTARIF BASE 0
+ISOUSC 60 <
+BASE 012780488 1
+PTEC TH.. $
+IINST 008 _
+IMAX 090 H
+PAPP 01874 5
+HHPHC A ,
+MOTDETAT 000000 B
+ADCO 341964324585 M
+OPTARIF BASE 0
+ISOUSC 60 <
+BASE 012780489 2
+PTEC TH.. $
+IINST 008 _
+IMAX 090 H
+PAPP 01872 3

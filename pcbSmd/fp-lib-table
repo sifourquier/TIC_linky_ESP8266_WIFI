@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name lib)(type KiCad)(uri /home/simon/Sync/Domotic/rs485/hardware/thermostatrs485/lib.pretty)(options "")(descr ""))
+  (lib (name RJ12V3)(type KiCad)(uri ${KIPRJMOD}/RJ12V3.pretty)(options "")(descr ""))
+  (lib (name lpc111x_7x7)(type KiCad)(uri ${KIPRJMOD}/lpc111x_7x7.pretty)(options "")(descr ""))
+)

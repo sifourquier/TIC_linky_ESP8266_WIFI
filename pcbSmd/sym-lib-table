@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/pcb-rescue.lib)(options "")(descr ""))
+  (lib (name tps6216x)(type Legacy)(uri /home/simon/Sync/Domotic/rs485/hardware/universalV3/tps6216x.lib)(options "")(descr ""))
+)
