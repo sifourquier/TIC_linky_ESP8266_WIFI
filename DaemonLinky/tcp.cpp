@@ -20,7 +20,7 @@ void MyTcp::init()
 	connect(&watchdog, SIGNAL(timeout()),this, SLOT(watchdogTimeout()));
 
 
-	socket->connectToHost("192.168.1.22", 23);
+	socket->connectToHost("192.168.1.136", 23);
 
 	if(!socket->waitForConnected(15000))
 	{

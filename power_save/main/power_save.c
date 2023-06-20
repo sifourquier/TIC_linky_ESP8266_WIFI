@@ -22,6 +22,7 @@
 #include "esp_event.h"
 #include "esp_wifi.h"
 #include "esp_sleep.h"
+#include "tcpip_adapter.h"
 #include "protocol_examples_common.h"
 #include "nvs.h"
 #include "nvs_flash.h"
@@ -33,7 +34,6 @@
 #include "lwip/sockets.h"
 #include "lwip/sys.h"
 #include <lwip/netdb.h>
-
 
 
 #if CONFIG_EXAMPLE_POWER_SAVE_MIN_MODEM
@@ -76,7 +76,7 @@ static void uart_read_task()
     }
 }
 
-/*static void ping()
+static void ping()
 {
 	while (1) {
 		char* str = "p";
@@ -84,17 +84,15 @@ static void uart_read_task()
 
 		vTaskDelay(500 / portTICK_PERIOD_MS);
 	}
-}*/
+}
 
 // ISR to Fire when Timer is triggered
-void hw_timer_callback() {
-	/*char* str = "p";
-	uart_write_bytes(UART_NUM_0,str ,sizeof(str));*/
+/*void hw_timer_callback() {
 	gpio_set_level(GPIO_NUM_1, 1);
 	volatile int l;
 	for(l=0;l<1000;l++);
 	gpio_set_level(GPIO_NUM_1, 0);
-}
+}*/
 
 static void tcp_server_task(void *pvParameters)
 {
@@ -186,6 +184,7 @@ static void tcp_server_task(void *pvParameters)
 
 void app_main(void)
 {
+    ESP_LOGI(TAG, "Retrieved counter %u", hw_timer_get_load_data());
     // Configure parameters of an UART driver,
     // communication pins and install the driver
     uart_config_t uart_config = {
@@ -198,42 +197,23 @@ void app_main(void)
     uart_param_config(UART_NUM_0, &uart_config);
     uart_driver_install(UART_NUM_0, BUF_SIZE * 2, 0, 0, NULL, 0);
 	
-	uint64_t mask = 2;
-	gpio_config_t config;
-	config.pin_bit_mask = mask;
-	config.mode = GPIO_MODE_OUTPUT;
-	config.pull_up_en = GPIO_PULLUP_ENABLE;
-	config.pull_down_en = GPIO_PULLDOWN_DISABLE;
-	config.intr_type = GPIO_INTR_DISABLE;
-	gpio_config(&config); //switch tx as GPIO
-	
 	ESP_ERROR_CHECK(esp_netif_init());
     ESP_ERROR_CHECK(esp_event_loop_create_default());
-	//xTaskCreate(ping, "ping", 1024, NULL, 10, NULL);
+	xTaskCreate(ping, "ping", 1024, NULL, 10, NULL);
 	
-	gpio_set_level(GPIO_NUM_1, 1);
-	gpio_set_level(GPIO_NUM_1, 0);
-	gpio_set_level(GPIO_NUM_1, 1);
-	gpio_set_level(GPIO_NUM_1, 0);
-	gpio_set_level(GPIO_NUM_1, 1);
-	gpio_set_level(GPIO_NUM_1, 0);
+	esp_wifi_set_ps(WIFI_PS_MIN_MODEM);
+    tcpip_adapter_init();
+    tcpip_adapter_dhcpc_stop(TCPIP_ADAPTER_IF_STA);
+    tcpip_adapter_ip_info_t ipInfo;
 
-      uint32_t value = 50000; // 1s
-      uint32_t counter = ((TIMER_BASE_CLK >> TIMER_CLKDIV_16) / 1000000) * value; // value units are micro-seconds
-      ESP_LOGI(TAG, "Initialize hw_timer for callback, value %u, counter %u (0x%x)", value, counter, counter);
-      hw_timer_init(hw_timer_callback, NULL);
-      hw_timer_set_reload(true); // false - also works
-      hw_timer_set_clkdiv(TIMER_CLKDIV_16);
-      hw_timer_set_intr_type(TIMER_EDGE_INT);
-      hw_timer_set_load_data(counter);
-      ESP_LOGI(TAG, "Retrieved counter %u", hw_timer_get_load_data());
-      hw_timer_enable(true);
+    inet_pton(AF_INET, "192.168.1.136", &ipInfo.ip);
+    inet_pton(AF_INET, "192.168.1.254", &ipInfo.gw);
+    inet_pton(AF_INET, "255.255.255.0", &ipInfo.netmask);
+    tcpip_adapter_set_ip_info(TCPIP_ADAPTER_IF_STA, &ipInfo);
+    esp_wifi_set_mode(WIFI_MODE_STA);
 
-
-	esp_wifi_set_ps(DEFAULT_PS_MODE);
-	esp_wifi_set_mode(WIFI_MODE_STA);
+    
 	ESP_ERROR_CHECK(example_connect());
-
 	
 	
 	xTaskCreate(tcp_server_task, "tcp_server", 4096, NULL, 5, NULL);

@@ -6,7 +6,7 @@ lwip/src/core/ipv4/etharp.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -94,7 +94,7 @@ lwip/src/core/ipv4/etharp.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 

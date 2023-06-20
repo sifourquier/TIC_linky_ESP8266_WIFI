@@ -16,7 +16,7 @@ port/esp8266/xtensa_context.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h:
@@ -51,7 +51,7 @@ port/esp8266/xtensa_context.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h:
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/xtensa_context.S:

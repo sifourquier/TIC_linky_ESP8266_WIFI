@@ -2,7 +2,7 @@ port/portevent_m.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freemodbus/port/portevent_m.c \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mb_m.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mbconfig.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freemodbus/port/port.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
@@ -52,7 +52,7 @@ port/portevent_m.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mbconfig.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freemodbus/port/port.h:
 

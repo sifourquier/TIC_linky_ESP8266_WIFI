@@ -1,6 +1,6 @@
 bootloader_start.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader/subproject/main/bootloader_start.c \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/bootloader/../include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/bootloader/../include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_config.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_flash_data_types.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_init.h \
@@ -18,7 +18,7 @@ bootloader_start.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/bootloader/../include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/bootloader/../include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_config.h:
 

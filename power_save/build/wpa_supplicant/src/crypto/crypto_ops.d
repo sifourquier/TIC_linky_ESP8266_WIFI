@@ -7,7 +7,7 @@ src/crypto/crypto_ops.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/esp_heap_config.h \
@@ -47,7 +47,7 @@ src/crypto/crypto_ops.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h:
 

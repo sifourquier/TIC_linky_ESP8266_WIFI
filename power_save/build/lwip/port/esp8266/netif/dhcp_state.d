@@ -1,6 +1,7 @@
 port/esp8266/netif/dhcp_state.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/netif/dhcp_state.c \
  /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
+ /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/opt.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/lwipopts.h \
@@ -8,7 +9,7 @@ port/esp8266/netif/dhcp_state.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -31,7 +32,6 @@ port/esp8266/netif/dhcp_state.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/portable.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/deprecated_definitions.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/portmacro.h \
- /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/core.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/hal.h \
@@ -84,6 +84,8 @@ port/esp8266/netif/dhcp_state.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h:
 
+/home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h:
+
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/opt.h:
@@ -98,7 +100,7 @@ port/esp8266/netif/dhcp_state.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
@@ -143,8 +145,6 @@ port/esp8266/netif/dhcp_state.o: \
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/deprecated_definitions.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/portmacro.h:
-
-/home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime.h:
 

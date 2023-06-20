@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:pcb-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -93,7 +94,7 @@ L pcb-rescue:C-base-rescue C2
 U 1 1 5FDFE767
 P 3650 2800
 F 0 "C2" H 3650 2900 50  0000 L CNN
-F 1 "330pF" H 3650 2700 50  0000 L CNN
+F 1 "1.5nF" H 3650 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3688 2650 50  0001 C CNN
 F 3 "" H 3650 2800 50  0000 C CNN
 	1    3650 2800
@@ -115,7 +116,7 @@ L pcb-rescue:R-base-rescue R1
 U 1 1 5FDFF1D2
 P 2750 2450
 F 0 "R1" H 2820 2496 50  0000 L CNN
-F 1 "10k" H 2820 2405 50  0000 L CNN
+F 1 "2.7k" H 2820 2405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2680 2450 50  0001 C CNN
 F 3 "" H 2750 2450 50  0000 C CNN
 	1    2750 2450
@@ -598,7 +599,7 @@ Connection ~ 3650 2600
 Wire Wire Line
 	2600 1400 2800 1400
 $Comp
-L Diode:BAT60A D1
+L pcb-rescue:BAT60A-Diode D1
 U 1 1 60DF7455
 P 2800 1550
 F 0 "D1" V 2754 1630 50  0000 L CNN
@@ -609,7 +610,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:BAT60A D2
+L pcb-rescue:BAT60A-Diode D2
 U 1 1 60DF81BB
 P 3150 1400
 F 0 "D2" H 3150 1183 50  0000 C CNN
@@ -641,7 +642,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 4950 2300 5350
 $Comp
-L Diode:BAT60A D4
+L pcb-rescue:BAT60A-Diode D4
 U 1 1 60E31E82
 P 2450 5350
 F 0 "D4" H 2450 5567 50  0000 C CNN
@@ -721,7 +722,7 @@ Wire Wire Line
 	1550 4550 2300 4550
 Connection ~ 2300 4550
 $Comp
-L pcb-rescue:APX823-lib U2
+L pcb-rescue:APX823-lib-pcb-rescue U2
 U 1 1 60EAFA97
 P 5600 3500
 F 0 "U2" H 5300 3750 50  0000 L CNN
@@ -773,7 +774,7 @@ F 3 "" H 5000 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAT60A D6
+L pcb-rescue:BAT60A-Diode D6
 U 1 1 60D5D5AB
 P 5150 3150
 F 0 "D6" H 5150 2933 50  0000 C CNN

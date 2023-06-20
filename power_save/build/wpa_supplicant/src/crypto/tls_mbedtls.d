@@ -2,7 +2,7 @@ src/crypto/tls_mbedtls.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/crypto/tls_mbedtls.c \
  /home/simon/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/includes.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/supplicant_opt.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -71,7 +71,7 @@ src/crypto/tls_mbedtls.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/supplicant_opt.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

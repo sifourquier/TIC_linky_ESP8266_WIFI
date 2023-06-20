@@ -1,9 +1,13 @@
 source/startup.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/source/startup.c \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
+ /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
+ /home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_partition.h \
+ /home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h \
+ /home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/tcpip_adapter.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h \
@@ -37,7 +41,6 @@ source/startup.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/portable.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/deprecated_definitions.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/portmacro.h \
- /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/core.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/hal.h \
@@ -83,13 +86,21 @@ source/startup.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/esp_newlib.h
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h:
 
+/home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h:
+
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
+
+/home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_partition.h:
+
+/home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h:
+
+/home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/tcpip_adapter.h:
 
@@ -156,8 +167,6 @@ source/startup.o: \
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/deprecated_definitions.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/portmacro.h:
-
-/home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime.h:
 

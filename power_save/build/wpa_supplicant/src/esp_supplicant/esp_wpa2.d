@@ -2,7 +2,7 @@ src/esp_supplicant/esp_wpa2.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/esp_supplicant/esp_wpa2.c \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -112,7 +112,7 @@ src/esp_supplicant/esp_wpa2.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

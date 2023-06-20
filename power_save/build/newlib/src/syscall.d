@@ -1,6 +1,6 @@
 src/syscall.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/newlib/src/syscall.c \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -42,7 +42,7 @@ src/syscall.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/termios.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/poll.h
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 

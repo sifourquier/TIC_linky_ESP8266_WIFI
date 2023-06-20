@@ -12,7 +12,7 @@ src/gdbstub.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/core-matmap.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/esp8266/gdbstub_target_config.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/private_include/esp_gdbstub_common.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/include/esp_gdbstub.h:
 
@@ -38,5 +38,5 @@ src/gdbstub.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/private_include/esp_gdbstub_common.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/src/gdbstub.c:

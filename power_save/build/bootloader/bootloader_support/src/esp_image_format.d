@@ -1,6 +1,6 @@
 src/esp_image_format.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/esp_image_format.c \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/bootloader/../include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/bootloader/../include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_image_format.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_flash_partitions.h \
@@ -17,7 +17,7 @@ src/esp_image_format.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_random.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_sha.h
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/bootloader/../include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/bootloader/../include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_image_format.h:
 

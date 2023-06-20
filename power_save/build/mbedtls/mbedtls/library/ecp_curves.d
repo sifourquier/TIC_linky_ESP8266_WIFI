@@ -1,7 +1,7 @@
 mbedtls/library/ecp_curves.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/library/ecp_curves.c \
  /home/simon/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp_mem.h \
@@ -12,7 +12,7 @@ mbedtls/library/ecp_curves.o: \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h:
 

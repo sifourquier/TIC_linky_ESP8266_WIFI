@@ -1,6 +1,6 @@
 src/bootloader_common.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_common.c \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/hal.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
@@ -18,7 +18,7 @@ src/bootloader_common.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/bootloader_common.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_flash_data_types.h
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/hal.h:
 

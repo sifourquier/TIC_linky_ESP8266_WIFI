@@ -6,7 +6,7 @@ pthread.o: /home/simon/esp/ESP8266_RTOS_SDK/components/pthread/pthread.c \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h \
+ /home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -54,7 +54,7 @@ pthread.o: /home/simon/esp/ESP8266_RTOS_SDK/components/pthread/pthread.c \
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/simon/esp/ESP8266_RTOS_SDK/examples/wifi/power_save/build/include/sdkconfig.h:
+/home/simon/Sync/Domotic/rs485/TIC_linky/power_save/build/include/sdkconfig.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

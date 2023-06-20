@@ -79,6 +79,9 @@ power_save.o: \
  /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
+ /home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_partition.h \
+ /home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h \
+ /home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/uart.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/hw_timer.h \
  /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h \
@@ -255,6 +258,12 @@ power_save.o: \
 /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h:
+
+/home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_partition.h:
+
+/home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h:
+
+/home/simon/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h:
 
 /home/simon/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/uart.h:
 

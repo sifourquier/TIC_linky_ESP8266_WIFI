@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.3, 2021-03-10T00:54:56. -->
+<!-- Written by QtCreator 4.13.3, 2023-01-05T21:43:15. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -101,7 +101,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QtProjectManager.QMakeBuildStep</value>
       <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
-      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">true</value>
       <valuelist type="QVariantList" key="QtProjectManager.QMakeBuildStep.SelectedAbis"/>
      </valuemap>
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
@@ -123,7 +123,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
       <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
@@ -175,7 +175,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
       <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
@@ -227,7 +227,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
       <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
@@ -383,7 +383,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
       <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
@@ -435,7 +435,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
       <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
@@ -487,7 +487,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
       <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
@@ -642,7 +642,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
       <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
@@ -694,7 +694,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
       <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
@@ -746,7 +746,7 @@
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
       <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
       <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
       <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
